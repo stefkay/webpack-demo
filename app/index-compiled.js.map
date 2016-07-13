@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":[],"mappings":"AAAA,QAAQ,OAAR;AACA,IAAI,YAAY,QAAQ,aAAR,CAAhB;;AAEA,SAAS,IAAT,CAAc,WAAd,CAA0B,WAA1B","file":"index-compiled.js","sourcesContent":["require('react');\r\nvar component = require(\"./component\");\r\n\r\ndocument.body.appendChild(component());"]}
