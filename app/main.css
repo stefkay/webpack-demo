@@ -1,0 +1,8 @@
+body{
+    background: cornflowerblue;
+}
+:local(.heading){
+    font-size: 3em;
+    color: whitesmoke;
+    font-family: "Segoe UI";
+}

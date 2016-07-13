@@ -1,0 +1,44 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "webpack-demo",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "stats": "webpack --profile --json > stats.json",
+    "start": "webpack-dev-server --inline --hot",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefkay/webpack-demo.git"
+  },
+  "keywords": [
+    "webpack",
+    "starter",
+    "project"
+  ],
+  "author": "stefkay",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stefkay/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/stefkay/webpack-demo#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.9",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gh-pages": "^0.11.0",
+    "html-webpack-plugin": "^2.22.0",
+    "purecss": "^0.6.0",
+    "purifycss-webpack-plugin": "^2.0.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.0",
+    "webpack-validator": "^2.2.2"
+  },
+  "dependencies": {
+    "react": "^15.2.1"
+  }
+}
