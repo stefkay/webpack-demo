@@ -26,7 +26,7 @@ const common = {
   },
   output: {
       path: PATHS.build,
-      outputPath: '/webpack-demo',
+      publicPath: '/webpack-demo/',
       filename: '[name].[chunkhash].js',
       // This is used for require.ensure. The setup
       // will work without but this is useful to set.
